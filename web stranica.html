@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="hr">							
+<head>
+    <title>JavaScript</title>    
+	<meta charset="utf-8">
+    <style>
+		body {
+			width: 900px;
+			margin: 0 auto;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+		}	
+	</style>
+</head>
+	<body>
+		<h1 id="naslov">JavaScript program</h1>
+		
+		<h3>Zadatak - aktiviraj događaje!</h3>
+			
+		<p>1. izradi program koji će pritiskom na gumb Datum i vrijeme 
+		ispisati trenutačno vrijeme i datum na web stranicu. 
+		Koristi ugrađenu JavaScript funkciju Date();</p>
+		
+		<p>2. pritiskom na gumb Promijeni naslov dohvati glavni h1 element na web stranici i promijeni njegov sadržaj 
+		- promijeni tekst glavnog naslova na ovoj web stranici.</p>
+		
+		<hr>
+		
+		<h3>Rješenje:</h3>
+		
+		<input type="button" onclick="datum();" value="Datum i vrijeme" />
+		
+		<input type="button" onclick="naslov();" value="Promijeni naslov!" />
+		
+		<p id="insert"></p>
+        
+		<script src="script.js"></script>
+	</body>
+</html>
